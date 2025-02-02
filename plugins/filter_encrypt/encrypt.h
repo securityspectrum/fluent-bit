@@ -128,7 +128,7 @@ struct pii_record_struct_t {
     char fieldName[MAX_LENGTH];
     char maskingTechnique[MAX_LENGTH];
 };
-static struct pii_record_struct_t pii_fields_records_array[5];
+static struct pii_record_struct_t pii_fields_records_array[50];
 
 static int pii_obj_count;
 
